@@ -1,0 +1,51 @@
+{
+	"privatekey": "prCOH2020MAR14AtLink",
+	"AppSessionTime": "4h",
+	"SessionIdlePeriod": "8h",
+	"DBConfig": {
+		"HostName": "localhost",
+		"DatabaseName": "COHTest",
+		"UserName": "sa",
+		"Password": "atlink123",
+		"Port": "1433",
+		"InstanceName": "ATLINKSQL"
+	},
+	"EmailConfig": {
+		"EmailHost": "email-smtp.us-east-2.amazonaws.com",
+		"EmailPort": "587",
+		"EmailAuthUser": "AKIAVQXDHLR7Z542Y2FR",
+		"EmailAuthUserPassword": "BOEC58ejF2EIYI3kNAuN527WMwQC/B4oN26/epgGEavJ",
+		"FromEmail": "vendorportal@purchasinghouston.org"
+	},
+	"ClientUrl": "http://localhost:4200",
+	"PasswordExpiryTime": "90d",
+	"OldPaswordCount": "3",
+	"PasswordLinkValidPeriod": "24h",
+	"S3Config": {
+		"BucketRFQ": "/RFQ",
+		"BucketLC": "/LC",
+		"BucketPS": "/Resource Documents/PS",
+		"BucketCS": "/Resource Documents/CS",
+		"BucketSOQ": "/SOQ",
+		"BucketRFQZip": "/SOQ/RFQ-ZIP",
+		"BucketHPW100": "/HPW100",
+		"BucketCP": "/Construction Prequalifications",
+		"BucketOther": "/Other",
+		"PublicACL": "public-read",
+		"AuthenticatedACL": "authenticated-read",
+		"ContentType": "application/pdf"
+	},
+	"ResourceTypes": {
+		"Account": "Account",
+		"ConstructionPrequalification": "Construction Registration",
+		"HPW100": "HPW 100",
+		"LC": "LC",
+		"Profile": "Profile",
+		"ProjectType": "Project Type",
+		"RFQ": "RFQ",
+		"ResourceDocument": "Resource Document",
+		"SOQ": "SOQ",
+		"User": "User"
+	},
+	"emailTempPath": "../public/templates/email_template.html"
+}
